@@ -1,0 +1,67 @@
+.container {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+
+a {
+  color: black;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+p {
+  color: black;
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+/* table styles */
+.table {
+  margin-top: 50px;
+}
+h2 {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+th,
+td {
+  border: 2px solid black;
+  padding: 5px;
+}
+table {
+  width: 80%;
+  /* already in reset */
+  /* border-collapse: collapse; */
+}
+
+/* contact style */
+.tel_title {
+  margin-top: 20px;
+}
+.contact {
+  margin-bottom: 50px;
+}
